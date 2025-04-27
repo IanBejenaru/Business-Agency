@@ -245,3 +245,176 @@ textarea {
   }
 }
 
+/* 
+  Aquí empieza el proyecto
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+   
+  background-image: url(../img/woman@2x.png);
+  background-position: top right -40px;
+  background-size: 900px;
+  background-repeat: no-repeat;
+}
+.page {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+
+header figure {
+  margin: 0;
+}
+
+header figure img {
+  width: 171px;
+}
+
+header figcaption {
+  display: none;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 56px;
+}
+
+header nav ul a {
+  font-family: "Poppins", sans-serif;
+  color: #424241;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.hero {
+  padding-top: 30px;
+
+}
+
+.hero__content {
+  max-width: 60%;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 110px;
+  line-height: 100px;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+
+}
+
+.hero h1 span {
+  color: #7EDAD2;
+}
+
+.hero__content p {
+  color: var(--text-and-main-gray-2, #909090);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 480px;
+  margin-bottom: 40px;
+}
+
+.hero__content a {
+
+  display: inline-block;
+  background-color: #7EDAD2;
+  color: white;
+  padding: 12px 18px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.hero_numbers {
+  display: flex;
+  justify-content: space-between;
+  max-width: 480px;
+  margin-bottom: 40px;
+}
+
+.hero_numbers div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.hero_number {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+  line-height: normal;
+  font-style: normal;
+  font-weight: 400;
+  color: #424241;
+
+}
+
+.hero_numbers div span:last-child {
+  color: var(--text-and-main-gray-2, #909090);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.categories article {
+  background-color: white;
+  padding: 32px;
+
+
+
+}
+
+.categories article h3 {
+  color: var(--text-and-main-black, #424241);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 8px 0;
+
+}
+
+.categories article p {
+  color: var(--text-and-main-gray-2, #909090);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 0;
+}
