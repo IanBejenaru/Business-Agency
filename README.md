@@ -1,2 +1,12 @@
 # Business-Agency
-Header de una agencia de negocios con HTML y CSS
+Este proyecto es una plantilla de sitio web moderno para agencias de negocios, utilizando HTML5 y CSS3. Ideal para empresas que buscan una presencia profesional online.
+![Screenshot](img/paginaWEB_Business-Agency.png)
+
+## Tecnologías
+- HTML5
+- CSS3
+
+## Instalación
+1. Clona este repositorio
+```bash
+git clone https://github.com/IanBejenaru/Business-Agency.git
